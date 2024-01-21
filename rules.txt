@@ -1,0 +1,3 @@
+scissor>paper
+paper>stone
+stone>scissor

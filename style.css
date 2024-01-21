@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    height: 4rem;
+    /* background-color: #3C2A3C; */
+    background-color: #6edb6e;
+    color: white;
+    font-weight: bold;
+    padding-top: 1rem;
+    justify-content: center;
+    display: flex;
+}
+
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    /* opacity: 0.5; */
+    cursor: pointer;
+    background-color: #0D111C;
+    
+}
+
+img{
+    height: 160px;
+    width: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 40px;
+}
+
+.score_board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    gap:4rem;
+    margin-top: 40px;
+    margin-bottom: 2rem;
+}
+
+#user_score, #comp_score{
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.msg-cotainer{
+    align-items: center;
+    margin-top: 3rem;
+}
+
+#msg{
+    /* text-align: center;
+    align-items: center; */
+    /* background-color: #3C2A3C; */
+    background-color: #6edb6e;
+    color: white;
+    font-size: 2rem;
+    /* margin-left: 28.8rem;  */
+    padding: 1rem;
+    border-radius: 1rem;
+    display: inline;/*so that online the required space is aquired and not the whole width*/
+}
